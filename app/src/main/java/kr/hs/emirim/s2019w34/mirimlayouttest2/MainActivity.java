@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         setContentView(linear1, params);
 
     }
