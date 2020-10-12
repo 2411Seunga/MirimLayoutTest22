@@ -22,18 +22,20 @@ public class MainActivity extends AppCompatActivity {
         linear1.setBackgroundColor(Color.rgb(181, 178, 255));
         linear1.setOrientation(LinearLayout.VERTICAL);
 
-        Button btn = new Button(this);
-        btn.setText("클릭해보세요~");
-        btn.setBackgroundColor(Color.rgb(128, 65, 217));
-        btn.setTextColor(Color.WHITE);
-        linear1.addView(btn);
+//        Button btn = new Button(this);
+//        btn.setText("클릭해보세요~");
+//        btn.setBackgroundColor(Color.rgb(128, 65, 217));
+//        btn.setTextColor(Color.WHITE);
+//        linear1.addView(btn);
+//
+//        btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(getApplicationContext(), "Java 코드로 작성한 버튼입니다.", Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Java 코드로 작성한 버튼입니다.", Toast.LENGTH_SHORT).show();
-            }
-        });
+
 
         setContentView(linear1, params);
 
